@@ -1,0 +1,55 @@
+html{
+    height: 100%;
+}
+body{
+    align-items: center;
+    background: linear-gradient(150deg,#f05a5a,#74ff6a,#76efff);
+    display: flex;
+    height: inherit;
+    justify-content: center;
+}
+.boton{
+    font-size: 78px;
+    margin: 5px;
+    width: 117px;
+    border-radius: 5px;
+    border: 2px solid rgba(102, 102, 102, 0);
+}
+
+.boton:hover{
+    box-shadow: 0px 0px 15px rgb(251, 255, 28);
+}
+.boton:active{
+    border: 2px solid rgba(201, 201, 201, 0);
+    box-shadow: 0px 0px 15px rgb(251, 255, 28);
+    background: rgba(197, 197, 197, 0.674);
+}
+.punto{
+    width: 45%;
+}
+.pantalla{
+    font-size: 100px;
+    width: 95%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.contenedor{
+    display: flex;
+}
+.marco{
+    display: flex;
+    flex-basis: 550px;
+    border: 5px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.411);
+    flex-direction: column;
+}
+.borrar{
+    width: 45%;
+}
+.clear{
+    background-color: orangered;
+    border: rgba(255, 255, 255, 0);
+}
